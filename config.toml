@@ -1,0 +1,37 @@
+baseURL = 'https://matteo.panella.io/'
+languageCode = 'en-us'
+title = 'Matteo Panella'
+theme = 'hello-friend-ng'
+enableEmoji = true
+rssLimit = 10
+copyright = 'This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.'
+
+[author]
+    name = 'Matteo Panella'
+
+[taxonomies]
+    tag = 'tags'
+    category = 'categories'
+
+[params]
+    dateform = '2 Jan 2006'
+    dateformShort = '2 Jan'
+    dateformNum = '2006-01-02'
+    dateformNumTime = "2006-01-02 15:04 -0700"
+    themeColor = '#494f5c'
+    homeSubtitle = 'Hello, there!'
+    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    justifyContent = false
+    relatedPosts = false
+    disableReadOtherPosts = true
+    enableThemeToggle = true
+
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/rfc1459"
+
+[languages]
+    [languages.en]
+        [languages.en.params.logo]
+            logoText = 'whoami'
+            logoHomeLink = '/'
