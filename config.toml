@@ -2,9 +2,30 @@ baseURL = 'https://matteo.panella.io/'
 languageCode = 'en-us'
 title = 'Matteo Panella'
 theme = 'hello-friend-ng'
-enableEmoji = true
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate = 10
 rssLimit = 10
-copyright = 'This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.'
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
 
 [author]
     name = 'Matteo Panella'
@@ -20,11 +41,16 @@ copyright = 'This work is licensed under a Creative Commons Attribution-NonComme
     dateformNumTime = "2006-01-02 15:04 -0700"
     themeColor = '#494f5c'
     homeSubtitle = 'Hello, there!'
-    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     justifyContent = false
     relatedPosts = false
     disableReadOtherPosts = true
     enableThemeToggle = true
+    enableSharingButtons = false
+
+    [params.footer]
+        trademark = true
+        author = true
+        copyright = true
 
     [[params.social]]
         name = "github"
@@ -32,6 +58,9 @@ copyright = 'This work is licensed under a Creative Commons Attribution-NonComme
 
 [languages]
     [languages.en]
+        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
         [languages.en.params.logo]
+            logoMark = '$'
             logoText = 'whoami'
             logoHomeLink = '/'
