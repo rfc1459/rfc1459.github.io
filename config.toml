@@ -56,6 +56,11 @@ disableHugoGeneratorInject = false
         name = "github"
         url = "https://github.com/rfc1459"
 
+    [[params.social]]
+        name = "mastodon"
+        url = "https://livellosegreto.it/@rfc1459"
+        rel = "me"
+
 [languages]
     [languages.en]
         copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
