@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
 
     [[params.social]]
         name = "mastodon"
-        url = "https://livellosegreto.it/@rfc1459"
+        url = "https://social.treehouse.systems/@rfc1459"
         rel = "me"
 
 [languages]
