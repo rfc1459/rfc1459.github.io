@@ -1,4 +1,4 @@
-baseURL = 'https://matteo.panella.io/'
+baseURL = 'https://matteo.panella.boo/'
 languageCode = 'en-us'
 title = 'Matteo Panella'
 theme = 'hello-friend-ng'
@@ -55,11 +55,6 @@ disableHugoGeneratorInject = false
     [[params.social]]
         name = "github"
         url = "https://github.com/rfc1459"
-
-    [[params.social]]
-        name = "mastodon"
-        url = "https://social.treehouse.systems/@rfc1459"
-        rel = "me"
 
 [languages]
     [languages.en]
